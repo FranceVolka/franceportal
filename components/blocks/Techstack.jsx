@@ -4,6 +4,7 @@ import {
   DiAngularSimple,
   DiHtml5,
   DiJavascript,
+  DiCss3,
 } from 'react-icons/di'
 import { 
   SiNextdotjs,
@@ -51,6 +52,11 @@ export default function SkillSet ({}) {
             transition-all duration-300 ease-in align-middle rounded-md border-[1.7px] border-[#c889e6a2] text-white boxShadow_purple hover:scale-[1.05] hover:border-[2.2px] hover:border-[#c573e6e1]'>
               <DiJavascript className='m-auto'></DiJavascript >
               <p className='text-[.25em] mb-0 mt-3'>JavaScript</p>
+            </div>
+            <div className='flex flex-col w-1/6 opacity-95 overflow-hidden py-[35px] px-[60px] text-center text-[4.5em] 
+            transition-all duration-300 ease-in align-middle rounded-md border-[1.7px] border-[#c889e6a2] text-white boxShadow_purple hover:scale-[1.05] hover:border-[2.2px] hover:border-[#c573e6e1]'>
+              <DiCss3 className='m-auto'></DiCss3 >
+              <p className='text-[.25em] mb-0 mt-3'>CSS</p>
             </div>
           </div>
         </div>

@@ -29,12 +29,12 @@ export default function Myself ({}) {
             data-aos-delay="400"
           >
             <h1 className='text-[2.1em] pb-5 text-white'>
-              Know Who <strong className='text-purple-800'>I'M</strong>
+              Know Who <strong className='text-purple-800'>I&apos;M</strong>
             </h1>
             <div className='relative flex flex-col break-words rounded min-w-0 text-white text-xl'>
               <p className="text-justify">
               A passionate <span className='text-purple-800'>front-end developer</span> on an exciting journey into the world of web development. 
-              With a focus on modern technologies like ReactJS and Next.js, I'm constantly exploring new horizons and seeking to deepen my understanding of creating engaging user experiences.
+              With a focus on modern technologies like ReactJS and Next.js, I&apos;m constantly exploring new horizons and seeking to deepen my understanding of creating engaging user experiences.
               </p>
               <br />
               <p className="text-justify">
