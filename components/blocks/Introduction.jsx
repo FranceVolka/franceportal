@@ -40,7 +40,7 @@ export default function Introduction({}) {
                 <span role="img" className="wave">👋🏻</span>
               </h1>
               <h1 className="text-white font-nunito font-bold text-[3em] uppercase pl-[45px]">
-                I'M 
+                I&apos;M
                 <span className="text-purple-800"> Francis Cane</span>
               </h1>
             </div>
