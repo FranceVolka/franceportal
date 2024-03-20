@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import Sidebar from "@/layout/partials/Sidebar";
+import Navbar from '@/layout/partials/Navbar'
 
 export default function DefaultLayout(props) {
   const Footer = () => {
@@ -8,9 +8,9 @@ export default function DefaultLayout(props) {
   };
 
   return (
-    <div className="relative flex flex-col min-h-screen pl-0 lg:pl-[260px] xl:pl-[300px] z-[1]">
-      <Sidebar />
-      <div className="relative flex-grow overflow-hidden">{props.children}</div>
+    <div className="relative flex flex-col min-h-screen">
+      <Navbar></Navbar>
+      <div className="relative flex flex-col justify-center items-center w-full max-w-[1920px] h-full min-h-screen">{props.children}</div>
     </div>
   );
 }
