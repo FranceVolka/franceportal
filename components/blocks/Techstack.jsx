@@ -9,7 +9,15 @@ import {
 import { 
   SiNextdotjs,
   SiStrapi,
+  SiVercel,
+  SiPostman,
 } from "react-icons/si";
+import { 
+  TbBrandVscode 
+} from "react-icons/tb";
+import { 
+  FaGithub,
+} from "react-icons/fa";
 
 export default function SkillSet ({}) {
   return (
@@ -20,7 +28,9 @@ export default function SkillSet ({}) {
           <h1 className='text-[2.3em] font-nunito text-white'>Professional <span className='text-purple-800'>Skillset</span></h1>
         </div>
         <div 
-          className='flex flex-col items-center w-full max-w-full space-y-10'
+          className='flex flex-col items-center w-full max-w-full space-y-10 mt-[2em]'
+          data-aos="zoom-in-up"
+          data-aos-delay="200"
         >
           <div className='flex flex-wrap items-center justify-center w-full max-w-full gap-10'>
             <div className='flex flex-col w-1/6 opacity-95 overflow-hidden py-[35px] px-[60px] text-center text-[4.5em] 
@@ -57,6 +67,37 @@ export default function SkillSet ({}) {
             transition-all duration-300 ease-in align-middle rounded-md border-[1.7px] border-[#c889e6a2] text-white boxShadow_purple hover:scale-[1.05] hover:border-[2.2px] hover:border-[#c573e6e1]'>
               <DiCss3 className='m-auto'></DiCss3 >
               <p className='text-[.25em] mb-0 mt-3'>CSS</p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col items-center w-full p-[10px] mt-[50px]">
+          <h1 className='text-[2.3em] font-nunito text-white'>Tools <span className='text-purple-800'>I use</span></h1>
+        </div>
+        <div 
+          className='flex flex-col items-center w-full max-w-full space-y-10 mt-[3em]'
+          data-aos="zoom-in-up"
+          data-aos-delay="200"
+        >
+          <div className='flex flex-wrap items-center justify-center w-full max-w-full gap-10'>
+            <div className='flex flex-col w-1/6 opacity-95 overflow-hidden py-[35px] px-[60px] text-center text-[4.5em] 
+            transition-all duration-300 ease-in align-middle rounded-md border-[1.7px] border-[#c889e6a2] text-white boxShadow_purple hover:scale-[1.05] hover:border-[2.2px] hover:border-[#c573e6e1]'>
+              <TbBrandVscode className='m-auto'></TbBrandVscode>
+              <p className='text-[.25em] mb-0 mt-3'>VS Code</p>
+            </div>
+            <div className='flex flex-col w-1/6 opacity-95 overflow-hidden py-[35px] px-[60px] text-center text-[4.5em] 
+            transition-all duration-300 ease-in align-middle rounded-md border-[1.7px] border-[#c889e6a2] text-white boxShadow_purple hover:scale-[1.05] hover:border-[2.2px] hover:border-[#c573e6e1]'>
+              <FaGithub className='m-auto'></FaGithub>
+              <p className='text-[.25em] mb-0 mt-3'>GitHub</p>
+            </div>
+            <div className='flex flex-col w-1/6 opacity-95 overflow-hidden py-[35px] px-[60px] text-center text-[4.5em] 
+            transition-all duration-300 ease-in align-middle rounded-md border-[1.7px] border-[#c889e6a2] text-white boxShadow_purple hover:scale-[1.05] hover:border-[2.2px] hover:border-[#c573e6e1]'>
+              <SiVercel className='m-auto'></SiVercel>
+              <p className='text-[.25em] mb-0 mt-3'>Vercel</p>
+            </div>
+            <div className='flex flex-col w-1/6 opacity-95 overflow-hidden py-[35px] px-[60px] text-center text-[4.5em] 
+            transition-all duration-300 ease-in align-middle rounded-md border-[1.7px] border-[#c889e6a2] text-white boxShadow_purple hover:scale-[1.05] hover:border-[2.2px] hover:border-[#c573e6e1]'>
+              <SiPostman className='m-auto'></SiPostman>
+              <p className='text-[.25em] mb-0 mt-3'>Postman</p>
             </div>
           </div>
         </div>
